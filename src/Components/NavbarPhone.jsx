@@ -1,14 +1,14 @@
 import { IoIosHome } from 'react-icons/io';
-import { IoIosCalendar } from 'react-icons/io';
+// import { IoIosCalendar } from 'react-icons/io'
 import { IoIosInformationCircleOutline } from 'react-icons/io';
-import { IoIosPerson } from 'react-icons/io';
+import { IoIosPerson, IoIosCalendar } from 'react-icons/io';
 import '../styles/navPhone.scss';
 
 const Navbar = () => {
   return (
     <div className="navigation-bar-phone">
       <ul className="ul-phone">
-        <li>
+        <li className="li-phone">
           <button
             style={{
               borderRadius: '0',
@@ -22,7 +22,7 @@ const Navbar = () => {
           </button>
         </li>
 
-        <li>
+        <li className="li-phone">
           <button
             style={{
               borderRadius: '0',
@@ -36,9 +36,9 @@ const Navbar = () => {
           </button>
         </li>
 
-        <li></li>
+        <li className="li-phone"></li>
 
-        <li>
+        <li className="li-phone">
           <button
             style={{
               borderRadius: '0',
@@ -52,7 +52,7 @@ const Navbar = () => {
           </button>
         </li>
 
-        <li>
+        <li className="li-phone">
           <button
             style={{
               borderRadius: '0',
