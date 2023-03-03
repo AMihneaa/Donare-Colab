@@ -1,0 +1,104 @@
+body {
+  background-image: linear-gradient(
+    rgb(220, 220, 220),
+    rgb(236, 236, 236),
+    rgb(227, 227, 227),
+    rgb(232, 232, 232)
+  );
+}
+
+.account-div-principal {
+  width: 80%;
+  height: 80%;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.account-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.account-div-info {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  height: 30%;
+  width: 60%;
+  // background-color: pink;
+}
+
+.account-div-bloodtype {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 5%;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  height: 20%;
+  width: 60%;
+  //   background-color: green;
+}
+
+.bloodtype-circle {
+  border: 1px solid black;
+  box-shadow: 2px 3px 3px #707070;
+  font-size: medium;
+  font-weight: 500;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.active {
+  border: 0;
+  color: white;
+  background-color: #f44336;
+}
+
+.account-div-info-name {
+  padding-top: 10;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  // background-color: green;
+}
+
+.account-div-info-name > h2 {
+  font-size: 30px;
+  padding: 5%;
+}
+
+.account-div-info-3 {
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  // background-color: green;
+}
+
+.account-div-info-3 > h4 {
+  padding: 0 10px 0 10px;
+}
+
+.input-cont > input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input {
+  height: 1em;
+  width: 30px;
+}
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}

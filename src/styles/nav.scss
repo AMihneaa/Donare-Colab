@@ -1,0 +1,35 @@
+ul {
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+  padding-inline-start: 0px;
+}
+
+li {
+  //   border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto; /* adjust */
+  height: auto; /* adjust */
+}
+
+.navlink {
+  color: rgb(47, 38, 38);
+  font-size: large;
+  font-weight: 500;
+}
+
+.navlink:hover {
+  color: rgba(106, 103, 103, 0.853);
+  text-decoration: none;
+  outline: 0;
+}
+
+.svg-li {
+  top: 10px;
+  position: relative;
+  z-index: 10;
+}
+
+//aici am editat

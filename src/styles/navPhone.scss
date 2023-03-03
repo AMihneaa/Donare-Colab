@@ -1,0 +1,32 @@
+.navigation-bar-phone {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #333;
+  border-radius: 20px 20px 20px 20px;
+
+  // bottom: 0px;
+  // position: absolute;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-bottom: 5px;
+  height: 60px;
+  // width: 95%;
+  // // margin-bottom: -20px;
+  // box-shadow: 0px 2px 4px #9c9c9c;
+  width: 95%;
+  // display: flex;
+  // justify-content: space-around;
+}
+
+.ul-phone {
+  display: flex;
+  // background-color: blue;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  margin-top: 5px;
+}
+
+.IoIo {
+  height: 30px;
+  width: 30px;
+}

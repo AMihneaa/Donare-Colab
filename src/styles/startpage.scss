@@ -1,0 +1,299 @@
+.startpage-class {
+  width: auto;
+  // background-image: url('./img/startpage/startpage-bg.jpg');
+  background-image: linear-gradient(79deg, #f23b58, #bf0a27 48%, #a60520);
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  user-select: none;
+}
+
+.center {
+  // width: 300px;
+  // height: 300px;
+  // /* Center vertically and horizontally */
+  // position: absolute;
+  // top: 30%;
+  // left: 40%;
+  // margin: -25px 0 0 -25px;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.svg-blood {
+  width: 100px;
+  height: 100px;
+}
+
+.BG-SVG {
+  transform: rotate(180deg);
+  bottom: 0px;
+}
+
+.startpage-div-text {
+  color: white;
+  text-align: center;
+  width: auto;
+  height: auto;
+}
+
+.startpage-div-text > h2 {
+  // margin-top: 200px;
+}
+
+.firstElement-section {
+  // width: 300px;
+  // height: 300px;
+  // /* Center vertically and horizontally */
+  // position: absolute;
+  // top: 30%;
+  // left: 40%;
+  // margin: -25px 0 0 -25px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fistElementDiv {
+  // top: 90px;
+  // left: 25%;
+  // position: relative;
+  // width: 50%;
+  // height: 100%;
+  margin: 5% 20% 5% 20%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Center vertically and horizontally */
+  text-align: center;
+
+  // background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='20' ry='20' stroke='%23808080FF' stroke-width='2' stroke-dasharray='10%2c 15' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+  border-radius: 20px;
+  padding: 40px;
+
+  box-shadow: 2px 2px 5px 2px #7f7f7f;
+}
+
+.fistElement-text {
+  text-align: center;
+  height: auto;
+  width: 300px;
+  text-align: center;
+}
+
+.firstElement-text > h2 {
+  margin-top: 20px;
+}
+
+.firstElement-text > h6 {
+  margin-top: 15px;
+  line-height: 1.5rem;
+}
+
+.SecondElement-section {
+  // width: 100%;
+  // height: auto;
+  // /* Center vertically and horizontally */
+  // position: absolute;
+  // // margin: -25px 0 0 -25px;
+  // display: block;
+  // margin-top: auto;
+  // margin-bottom: auto;
+
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SecondElementDiv {
+  // left: 26%;
+  // top: 65px;
+  // right: 10px;
+  // position: relative;
+  // width: 50%;
+  // height: 100%;
+
+  margin: 0 25% 0 25%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Center vertically and horizontally */
+  text-align: center;
+
+  /* border */
+  // background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='20' ry='20' stroke='%23808080FF' stroke-width='2' stroke-dasharray='10%2c 15' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 2px 2px 5px 2px #7f7f7f;
+}
+
+.SecondElement-text {
+  position: relative;
+  text-align: center;
+  height: auto;
+  width: auto;
+  text-align: center;
+}
+
+.SecondElement-text > h2 {
+  margin-top: 20px;
+}
+
+.SecondElement-text > h6 {
+  margin-top: 15px;
+}
+
+.skip-btn {
+  width: 15%;
+  border: 2.3px solid red;
+  color: red;
+  margin-top: 50px;
+  margin-right: 100px;
+  background-color: white;
+  letter-spacing: 1px;
+  box-shadow: 1px 2px 3px #a0a0a0;
+  user-select: none;
+}
+
+.next-btn {
+  width: 15%;
+  border: 1px white;
+  color: white;
+  background-color: #f44336;
+  letter-spacing: 1px;
+  box-shadow: 1px 2px 3px #a0a0a0;
+  user-select: none;
+}
+
+.skip2-btn {
+  width: 15%;
+  margin-top: 35px;
+  margin-right: 100px;
+  background-color: white;
+  border: 1px white;
+  color: white;
+  background-color: #f44336;
+  box-shadow: 1px 2px 3px #a0a0a0;
+  user-select: none;
+  letter-spacing: 1px;
+}
+.next2-btn {
+  width: 15%;
+  border: 2.3px solid red;
+  color: red;
+  background-color: white;
+  box-shadow: 1px 2px 3px #a0a0a0;
+  user-select: none;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 1000px) {
+  .skip-btn {
+    width: 30%;
+    border: 1px solid red;
+    color: red;
+    margin-top: 50px;
+    margin-right: 100px;
+    background-color: white;
+    text-align: center;
+  }
+
+  .next-btn {
+    width: 30%;
+    border: 1px white;
+    color: white;
+    background-color: #f44336;
+  }
+
+  .SecondElementDiv {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* Center vertically and horizontally */
+    text-align: center;
+
+    /* border */
+    border-radius: 0px;
+    padding: 40px;
+    box-shadow: 0px 0px 0px 0px #7f7f7f;
+  }
+
+  .fistElementDiv {
+    // top: 90px;
+    // left: 25%;
+    // position: relative;
+    // width: 50%;
+    // height: 100%;
+    margin: 5% 20% 5% 20%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* Center vertically and horizontally */
+    text-align: center;
+
+    // background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='20' ry='20' stroke='%23808080FF' stroke-width='2' stroke-dasharray='10%2c 15' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+    border-radius: 20px;
+    padding: 40px;
+
+    box-shadow: 0px 0px 0px 0px #7f7f7f;
+  }
+
+  .skip2-btn {
+    width: 30%;
+    margin-top: 35px;
+    margin-right: 90px;
+    background-color: white;
+    border: 1px white;
+    color: white;
+    background-color: #f44336;
+  }
+
+  .next2-btn {
+    width: 30%;
+    border: 1px solid red;
+    color: red;
+    background-color: white;
+  }
+
+  .center {
+    // width: 300px;
+    // height: 300px;
+    // /* Center vertically and horizontally */
+    // position: absolute;
+    // top: 30%;
+    // left: 40%;
+    // margin: -25px 0 0 -25px;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    // border: 1px solid black;
+  }
+
+  .svg-blood {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+//aici am editat
