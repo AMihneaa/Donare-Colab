@@ -10,11 +10,10 @@ const MyAccount = () => {
   const [userWeight, setUserWeight] = useState('80');
   const [userHeight, setUserHeight] = useState('190');
   const [userAge, setUserAge] = useState('19');
-  const [userBloodType, setUserBloodType] = useState('B+');
 
   const classes = ['A+', 'A-', 'B+', 'B-', 'O+', 'O-', 'AB+', 'AB-'];
 
-  const handleClick = e => {
+  const handleClick = () => {
     const allWithClass = Array.from(
       document.getElementsByClassName('bloodtype-circle')
     );
@@ -63,7 +62,7 @@ const MyAccount = () => {
             <h4>Greutate {userWeight} kg</h4>
           </div>
         </div>
-        <div onClick={e => handleClick(e)} className="account-div-bloodtype">
+        <div onClick={() => handleClick()} className="account-div-bloodtype">
           <div className="bloodtype-circle A+">A+</div>
           <div className="bloodtype-circle A-">A-</div>
           <div className="bloodtype-circle B+">B+</div>
