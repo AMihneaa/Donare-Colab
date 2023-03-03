@@ -8,23 +8,23 @@ const LINKS1 = [
 
 const LINKS2 = [
   { to: '/info', text: 'Informatii' },
-  { to: '/myaccount', text: 'Cont' },
+  { to: '/account', text: 'Cont' },
 ];
 
 const Navs = () => {
   return (
     <div className="navigation-bar">
-      <ul>
+      <ul className='ul-pc'>
         {LINKS1.map(item => (
-          <li key={item.to}>
+          <li className='li-pc' key={item.to}>
             <Link className="navlink" to={item.to}>
               {item.text}
             </Link>
           </li>
         ))}
-        <li></li>
+        <li className='li-pc'></li>
         {LINKS2.map(item => (
-          <li key={item.to}>
+          <li className='li-pc' key={item.to}>
             <Link className="navlink" to={item.to}>
               {item.text}
             </Link>
@@ -36,3 +36,5 @@ const Navs = () => {
 };
 
 export default Navs;
+
+//aici am editat

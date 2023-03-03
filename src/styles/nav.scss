@@ -1,11 +1,11 @@
-ul {
+.ul-pc {
   display: flex;
   justify-content: space-around;
   height: 100%;
   padding-inline-start: 0px;
 }
 
-li {
+.li-pc {
   //   border: 1px solid black;
   display: flex;
   justify-content: center;
@@ -31,5 +31,6 @@ li {
   position: relative;
   z-index: 10;
 }
+
 
 //aici am editat
