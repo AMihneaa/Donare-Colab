@@ -7,7 +7,7 @@ function BoxLayout() {
   return (
     <div className="boxlayout">
       <Popup
-        contentStyle={{ width: '80%', height: '80%', padding: '0%' }}
+        contentStyle={{ width: '25%', height: '100%', padding: '0%' }}
         trigger={<button className="box-div">Regulament</button>}
         modal
         nested

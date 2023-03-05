@@ -95,10 +95,49 @@ input::-webkit-inner-spin-button {
 }
 
 .input-cont {
-  height: 1em;
-  width: 30px;
+  height: 50px;
+  width: 60px;
+}
+
+.input-cont-inaltime {
+  height: 50px;
+  width: 75px;
+}
+
+.span-diferentiere {
+  width: 10px;
+  height: 10px;
 }
 /* Firefox */
 input[type='number'] {
   -moz-appearance: textfield;
+}
+
+.buton-programare {
+  border: 3px solid black;
+  margin-top: 3%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  height: 70px;
+  width: 30%;
+  // background-color: red;
+}
+
+.btn-programare-da {
+  display: flex;
+  margin: auto;
+  color: white;
+}
+
+.btn-programare-nu {
+  color: white;
+  display: flex;
+  margin: auto;
+  // background-color: Green;
+}
+
+.btn-programare-nu:hover {
+  color: white;
+  text-decoration: none;
 }

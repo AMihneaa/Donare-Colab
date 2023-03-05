@@ -1,0 +1,43 @@
+.section-programare {
+  //   background-color: red;
+  width: 100%;
+  height: 100vh;
+  padding-top: 5%;
+}
+
+.calendar {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+
+  width: 80%;
+  height: 90%;
+  background-color: green;
+  border: 2px solid black;
+}
+
+.calendar-ora {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  background-color: red;
+}
+
+.calendar-minut {
+  display: flex;
+  border: 1px solid black;
+  width: 25%;
+  height: 100%;
+  //   background-color: black;
+}
+
+.calendar-minut-text {
+  margin: auto;
+}
+
+.btn-ora {
+  width: 25%;
+  height: 100%;
+  border: 3px solid black;
+  border-radius: 0px;
+}

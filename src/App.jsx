@@ -8,6 +8,7 @@ import LoginRegister from './Pages/LoginRegister';
 import './styles/main.scss';
 import Home from './Pages/Home';
 import MyAccount from './Pages/Account';
+import Programare from './Pages/Programare';
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
         </Route>
         <Route path="/myaccount">
           <MyAccount />
+        </Route>
+        <Route path="/programare">
+          <Programare />
         </Route>
         <Route exact={true} path="">
           <StartPage />

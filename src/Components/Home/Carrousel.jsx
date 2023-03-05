@@ -23,7 +23,7 @@ function Carrousel() {
         onSlideChange={() => console.log('slide change')}
       >
         <SwiperSlide className="swiperslide-div-1">
-          <div className="swiperslide-div-1"></div>
+          <img src="../img1111.jpeg" alt="" />
         </SwiperSlide>
         <SwiperSlide>Slide 2</SwiperSlide>
         <SwiperSlide>Slide 3</SwiperSlide>
